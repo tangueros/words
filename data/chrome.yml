@@ -1,0 +1,52 @@
+site:
+  name:        Tango Words
+  description: an awesome playground
+  keywords:    tech, ideas, invent, problem-solver
+  author:      ""
+  footleft:    "&copy; 2018 telematique"
+  footright:   "Something here"
+  ga:          UA-1424133-1
+  favicon:     "/res/favicon.png"
+  url:         "http://telematiq.org"
+
+twitter:
+  pix: http://res.tangueros.net/club/abrazos-night.jpg
+  description: "Weekly milongas on Wed and Sat nights; Daily tango classes; Dance shoes for sale"
+  title: "Abrazos Club - Singapore's oldest tango centre"
+  creator: "@tangosingapore"
+
+
+topmenu:
+  -
+    name:  "Home"
+    slug:  "/index.html"
+  -
+    name:  "News"
+    slug:  "/news.html"
+  -
+    name:  "About"
+    slug:  "/about.html"
+  -
+    name:  "Contact"
+    slug:  "/contact.html"
+  -
+    name:  "Sitemap"
+    slug:  "/sitemap.xml"
+  -
+    name:  "Feed"
+    slug:  "/feed.xml"
+
+
+unused:
+  -
+    name: About
+    submenu:
+    -
+      name:  News
+      slug:  /dance/dojo
+    -
+      name:  Events
+      slug:  /dance/dojo
+    -
+      name:  Membership
+      slug:  /dance/dojo

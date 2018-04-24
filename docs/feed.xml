@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2011-10-28T12:00:00-04:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>The Tao of Tango</title>
+    <link rel="alternate" href="http://blog.url.com/post/2011/10/tao-of-tango/"/>
+    <id>http://blog.url.com/post/2011/10/tao-of-tango/</id>
+    <published>2011-10-28T12:00:00-04:00</published>
+    <updated>2018-04-24T03:50:00-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;I&amp;#39;m meeting all the wrong people.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nobody listens to me.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;My temper is out of control.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Men find me &amp;quot;intimidating&amp;quot;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Women think I&amp;#39;m a &amp;quot;wuss&amp;quot;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I can&amp;#39;t seem to finish anything.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;How can I be a better friend/lover/boss/whatever?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;My male/female energies are out of balance.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What the heck are male and female energies?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;And what does Tango have to do with any of this?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;With its thoughtful, light-hearted insights and simple
+physical exercises this book will help you achieve
+the coveted &amp;quot;balance&amp;quot; that affects every aspect of your life.
+Discover how this 100-year-old dance can lead you to a more
+balanced life.&lt;/p&gt;
+
+&lt;p&gt;Even if you can&amp;#39;t dance.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Tango: The Art History of Love</title>
+    <link rel="alternate" href="http://blog.url.com/post/2011/10/tango-art-history-love/"/>
+    <id>http://blog.url.com/post/2011/10/tango-art-history-love/</id>
+    <published>2011-10-28T12:00:00-04:00</published>
+    <updated>2018-04-24T03:50:00-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;In this generously illustrated book, world-renowned Yale
+art historian Robert Farris Thompson gives us the definitive
+account of tango,
+&amp;quot;the fabulous dance of the past hundred years --
+and the most beautiful, in the opinion of Martha Graham.”&lt;/p&gt;
+
+&lt;p&gt;Thompson traces tango’s evolution in the nineteenth century
+under European, Andalusian-Gaucho, and African influences
+through its representations by Hollywood and dramatizations
+in dance halls throughout the world.
+He shows us tango not only as brilliant choreography but
+also as text, music, art, and philosophy of life.
+Passionately argued and unparalleled in its research,
+its synthesis, and its depth of understanding,
+Tango: The Art History of Love is a monumental achievement.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Tango and Chaos</title>
+    <link rel="alternate" href="http://blog.url.com/post/2011/10/tango-and-chaos/"/>
+    <id>http://blog.url.com/post/2011/10/tango-and-chaos/</id>
+    <published>2011-10-28T12:00:00-04:00</published>
+    <updated>2018-04-24T03:50:00-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Rick McGarrey visited Buenos Aires to learn tango in 2004.
+This is his experience.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

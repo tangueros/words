@@ -1,0 +1,51 @@
+---
+title: News
+pageclass: news
+
+pageable: true
+per_page: 12
+---
+.container
+  %main.main(role="main")
+
+    - if paginate && num_pages > 1
+      %p
+        Page #{page_number} of #{num_pages}
+      - if prev_page
+        %p= link_to 'Previous page', prev_page
+
+    %h3 Tango Books
+    %ul.list-group
+      %li.list-group-item
+        .row
+          - page_articles.each_with_index do |article, i|
+            - if article.data.thumb
+              - pix = "thumbs/" + article.data.thumb
+            - if article.data.cover
+              - pix = "covers/" + article.data.cover
+            .col-4
+              = link_to article do
+                = image_tag pix,
+                  :class=>"img img-thumbnail",
+                  :style=>"height:8rem;"
+              %h5.card-title
+                = link_to article, :class=>"card-link" do
+                  %b= article.title
+                  %br
+                  by
+                  = article.data.author
+                  %br
+                  (
+                  %i= article.data.year
+                  )
+
+              / article.date.strftime('%Y %b %e')
+              -#= article.summary(250) #if nokogiri installed
+              -# article.body
+              -# article.summary(100,'>>')
+              -#= link_to 'Read More..', article
+
+    - if paginate
+      - if next_page
+        %hr/
+        %p= link_to 'Next page', next_page
