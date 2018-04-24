@@ -26,7 +26,7 @@ activate :blog do |blog|
   #blog.permalink = '{category}/{year}{month}/{title}.html'
   #blog.sources = "posts/{year}-{month}-{day}-{title}.html"
 
-  blog.sources = "books/{title}.html"
+  blog.sources = "posts/{title}.html"
   blog.default_extension = ".haml"
 
 
