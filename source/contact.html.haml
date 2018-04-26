@@ -3,14 +3,9 @@ title: Contact Phusion
 pageclass: contact
 ---
 .container
-  :markdown
-    # Contact Phusion
-
-    Call us or email us
-
-    * Here is one
-    * Here is two
-
-    So many possibilities
-
-
+  %dl.row
+    - data.tangowords.each do |w|
+      %dt.col-md-3.col-xs-12.text-truncate
+        = w.term
+      %dd.col-md-9.col-xs-12.text-truncate
+        = w.definition

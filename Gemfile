@@ -28,3 +28,6 @@ gem 'redcarpet',              '~> 3.3.2'
 #gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 # Windows does not come with time zone data
 #gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+
+# Added at 2018-04-24 04:17:20 -0400 by root:
+gem "middleman-data_source", "~> 0.8.1"

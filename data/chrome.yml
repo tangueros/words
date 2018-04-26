@@ -8,6 +8,7 @@ site:
   ga:          UA-1424133-1
   favicon:     "/res/favicon.png"
   url:         "http://telematiq.org"
+  link:        "words.tejastango.com"
 
 twitter:
   pix: http://res.tangueros.net/club/abrazos-night.jpg
@@ -30,11 +31,11 @@ topmenu:
     name:  "Contact"
     slug:  "/contact.html"
   -
-    name:  "Sitemap"
-    slug:  "/sitemap.xml"
-  -
-    name:  "Feed"
-    slug:  "/feed.xml"
+    name:  "All Words"
+    slug:  "/big.html"
+#  -
+#    name:  "Categorized"
+#    slug:  "/cat.html"
 
 
 unused:

@@ -3,7 +3,7 @@
 #############
 
 require "builder"
-#require 'active_support/core_ext/integer/inflections'
+require 'active_support/core_ext/integer/inflections'
 
 Time.zone = "Asia/Singapore"
 
@@ -15,42 +15,53 @@ Time.zone = "Asia/Singapore"
 #end
 
 
-#["tom", "dick", "harry"].each do |name|
-#  proxy "/about/#{name}/index.html", "/about/template.html",
-#  :locals => { :person_name => name }, :ignore => true
+activate :data_source do |c|
+  c.root = "./lexicons/data/"
+  c.files = {
+    "words_en.yml" => "tangowords",
+    "biglist-sorted.yml" => "tangodict"
+  }
+end
+
+#data.tangodict.each do |chunk|
+#  proxy "/junk/#{chunk.term.parameterize}.md", "/proxy/word.html",
+#  :locals => { :entry => chunk }, :ignore => true
+#end
+
+#page '/words/*', :layout=>"entry"
+
+#words.each_with_index do |chunk, index|
+#  proxy "/tt/#{chunk.term.parameterize}.html",
+#    "/proxy/entry.html",
+#    :locals => { :entry => chunk },
+#    :ignore => true
 #end
 
 
-activate :blog do |blog|
+
+
+#activate :blog do |blog|
   #blog.prefix = 'journal'
   #blog.permalink = '{category}/{year}{month}/{title}.html'
   #blog.sources = "posts/{year}-{month}-{day}-{title}.html"
 
-  blog.sources = "posts/{title}.html"
-  blog.default_extension = ".haml"
+  #blog.layout = "entry"
+  #blog.sources = "words/{title}.md"
+  #blog.default_extension = ".md"
+  #blog.permalink =  "tt/{title}.html"
 
-
-
-  blog.layout = "posts"
-  blog.permalink =  "post/{year}/{month}/{title}.html"
-
-
-  blog.calendar_template = "proxy/calendar.html"
+  #blog.calendar_template = "proxy/calendar.html"
   #blog.year_template = "proxy/calendar.html"
   #blog.month_template = "proxy/calendar.html"
   #blog.day_template = "proxy/calendar.html"
-  blog.year_link =  "archive/{year}.html"
-  blog.month_link = "archive/{year}/{month}.html"
-  blog.day_link =   "archive/{year}/{month}/{day}.html"
-
-
-  blog.tag_template = "proxy/tag.html"
-  blog.taglink =   "tagged/{tag}.html"
-
-
+  #blog.year_link =  "archive/{year}.html"
+  #blog.month_link = "archive/{year}/{month}.html"
+  #blog.day_link =   "archive/{year}/{month}/{day}.html"
+  #blog.tag_template = "proxy/tag.html"
+  #blog.taglink =   "tagged/{tag}.html"
   #blog.summary_separator = /(READMORE)/
   #blog.summary_length = 250
-end
+#end
 
 #ignore "proxy/calendar.html"
 ignore "proxy/*"

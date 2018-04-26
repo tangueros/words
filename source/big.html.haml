@@ -1,0 +1,15 @@
+---
+title: Contact Phusion
+pageclass: contact
+---
+.container
+  %dl.row
+    - data.tangodict.each do |w|
+      %dt.col-md-3.col-xs-12.text-truncate
+        = w.term
+      %dd.col-md-4.col-xs-12.text-truncate
+        = w.definition
+      %dd.col-md-2.col-xs-12.text-truncate
+        = w.cat
+      %dd.col-md-1.col-xs-12.text-truncate
+        = w.skill
